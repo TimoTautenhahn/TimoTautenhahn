@@ -1,8 +1,14 @@
 # Timo Tautenhahn
 
-**Applied AI architect and field CTO. Twenty years between customers and engineers. I still build, and I measure.**
+**Field CTO · Data, Analytics & AI at Salesforce**
 
-I build AI and data systems, and the evals that show whether they are ready for production: text-to-SQL, multimodal pipelines, and software that works offline. I write the code, and I can explain the trade-offs to the people who sign off on it.
+Nearly two decades between customers and engineers. Now I build the AI systems myself, and measure them.
+
+I design and build AI and data systems, and the evaluation harnesses that show whether any of it is ready for production: text-to-SQL, multimodal pipelines, and software that works offline. I write the code, and I can explain the trade-offs to the people who sign off on it.
+
+## Point of view
+
+Customers choose the model and control their data. Agents prove their value in evals and measured outcomes, not in demos.
 
 ## What I work on
 
@@ -21,20 +27,25 @@ I build AI and data systems, and the evals that show whether they are ready for 
 | [capture-time-deck-builder](https://github.com/TimoTautenhahn/capture-time-deck-builder) | Media folders to slide decks by capture time | Local OAuth broker |
 | [applied-ai-architect-portfolio-site](https://github.com/TimoTautenhahn/applied-ai-architect-portfolio-site) | Portfolio CMS | Database-enforced visibility, link-gated previews |
 
+## At work
+
+- **Model choice stays with the customer.** Any model behind an LLM gateway: masking, keys, cost, rate limits, usage tracking.
+- **Measured quality.** Golden-set evals on chart accuracy, factual grounding, calculation validity, and latency. A Python harness, built with AI coding agents, runs tiered customer question catalogs against an agentic analytics MCP server.
+- **Governed grounding.** Semantic layers, knowledge graphs, ontologies, and RAG, with SME-validated Q&A calibration and regression tests.
+
 ## How I work
 
 - Start from the decision the user has to make, not from the model.
 - Measure before I claim. If there is no eval yet, the README says so.
 - Say what is not done. Every project lists its limits and next steps.
-- Let users verify: show assumptions and sources, not just answers.
 - Prototype fast, then make it boring: configuration over hardcoding, no secrets in code, tests.
 
-## Where I'm useful
+## Beyond the repos
 
-- **Customers and field teams:** turning "we want AI on our data" into a measurable eval, a governed data foundation, and a production plan.
-- **Product and research:** bringing what strategic customers hit in production back as concrete requirements and failing test cases.
-- **Executives:** translating technical trade-offs into decisions, risk, and return.
+- 150+ talks on four continents, including Dreamforce. AI keynotes at Salesforce World Tour Frankfurt 2025 and Tableau Innovation Day Dubai 2023.
+- Developer blog: [tableaufans.com](https://tableaufans.com).
+- Open source: Tableau integration and JavaScript frontend of the Wafer Extension Framework (Virtual Manufacturing Summit EMEA 2021).
 
 ## Background
 
-Two decades as solutions architect and field CTO for the world's largest enterprises across data, analytics, and AI. I work with strategic customers globally, stay ahead of where the industry is heading, and turn that into product strategy. Current focus: agentic analytics, knowledge graphs, and answers users can verify.
+Field CTO for Data, Analytics & AI at Salesforce since 2022. Before that at Tableau (2014 to 2022) and IBM (2008 to 2014), working with enterprises across DACH and EMEA. Current focus: agentic analytics, knowledge graphs, and answers users can verify. German (native), English (fluent).
